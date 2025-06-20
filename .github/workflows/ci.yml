@@ -26,6 +26,3 @@ jobs:
 
     - name: Run tests
       run: pixi run pytest
-
-    - name: Install splinart locally
-      run: uv pip install -e .
