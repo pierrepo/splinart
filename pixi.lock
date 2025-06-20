@@ -12349,9 +12349,9 @@ packages:
   size: 28669
   timestamp: 1733750596111
 - pypi: ./
-  name: splinart
-  version: 0.1.0
-  sha256: 4698d6e0930a54f70c29812e4d7d0262ab671ab08e73dd5ebe6963b02ec4cf2a
+  name: splinart-auto
+  version: 1.0.0
+  sha256: 20ae3db6b236bdcc59729b0ff249c51486aa7d86982c929c7072e506e5efc74a
   requires_python: '>=3.8'
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/noarch/stack_data-0.6.3-pyhd8ed1ab_1.conda
