@@ -1,0 +1,13 @@
+name: splinart
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - notebook
+  - sphinx
+  - nbsphinx
+  - pydata-sphinx-theme
+  - numpydoc
+  #- nbsphinx-link
+  - myst-parser
