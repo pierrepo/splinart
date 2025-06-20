@@ -53,7 +53,7 @@ channels = ["conda-forge"]
 platforms = ["osx-arm64", "linux-64", "osx-64", "win-64"]
 
 [tool.pixi.pypi-dependencies]
-splinart = { path = ".", editable = true }
+splinart-auto = { path = ".", editable = true }
 
 [tool.pixi.feature.pypi-release.tasks]
 sdist = "python -m build --sdist"
