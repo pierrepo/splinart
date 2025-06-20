@@ -9,5 +9,5 @@ dependencies:
   - nbsphinx
   - pydata-sphinx-theme
   - numpydoc
-  - nbsphinx-link
+  #- nbsphinx-link
   - myst-parser
