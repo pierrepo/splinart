@@ -5,8 +5,17 @@ on:
     branches: [main]
 
 jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+    - name: Install pre-commit
+      uses: pre-commit/action@v4.0.0
+      with:
+        cache: true
   build:
-
+    needs: pre-commit
     runs-on: ubuntu-latest
 
     steps:
